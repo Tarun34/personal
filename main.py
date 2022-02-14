@@ -13,7 +13,7 @@ with col2:
             st.balloons()
             st.balloons()
         pygame.mixer.init()
-        pygame.mixer.music.load("Welcome.mp3")
+        pygame.mixer.music.load("Welcome.MP3")
         pygame.mixer.music.play(loops=2)
         st.write("<p style = 'color:Red; font-weight: bold'> Happy Valentine Day Baby  😍 </p>",unsafe_allow_html=True)
         st.write("Yeh Apka phla gift "
